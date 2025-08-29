@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Oxy Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="pics/logoo.jpg" alt="Oxy Fitness Logo">
+            <div>Oxy Fitness</div>
+        </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="fitnesscalculatpr.html">Fitness Calculator</a></li>
+                <li><a href="contactus.html" class="active">Contact Us</a></li>
+                <li><a href="trianing.html" class="active">Training</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us by filling out the form below:</p>
+        <form action="noaction.php">
+            <div class="forms">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="forms">
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="forms">
+                <input type="text" name="subject" placeholder="Enter Subject" required>
+            </div>
+            <div class="forms">
+                <textarea name="message" placeholder="Enter Your Message" rows="5" required></textarea>
+            </div>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
